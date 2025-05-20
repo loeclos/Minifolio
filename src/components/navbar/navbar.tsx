@@ -32,11 +32,11 @@ export default function Navbar({ links }: { links: Link[] }) {
             ))}
           </ul>
         </div>
-        <button className={`hamburger ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>
+        <div className={`hamburger ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>
           <span></span>
           <span></span>
           <span></span>
-        </button>
+        </div>
       </nav>
     );
 }
