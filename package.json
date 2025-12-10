@@ -10,11 +10,10 @@
   },
   "dependencies": {
     "lucide-react": "^0.477.0",
-    "next": "^15.2.0",
+    "next": "15.2.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "typed.js": "^2.1.0"
-    
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
@@ -26,5 +25,6 @@
     "eslint-config-next": "15.2.0",
     "tailwindcss": "^4",
     "typescript": "^5"
-  }
+  },
+  "packageManager": "pnpm@10.15.1+sha512.34e538c329b5553014ca8e8f4535997f96180a1d0f614339357449935350d924e22f8614682191264ec33d1462ac21561aff97f6bb18065351c162c7e8f6de67"
 }
